@@ -1,4 +1,4 @@
-FICHIER polyP43-exemple-m1ess1.desc :
+FICHIER polyP44-exemple-m2ess1.desc :
 
 unite          module
 tailleCode     85
@@ -7,7 +7,7 @@ nbDef          3
 nbRef          0
 nbTransExt     21
 tabDef          
-    init1  1  0
-    ajout1  7  1
-    ecr1  63  0
+    init2  1  0
+    ajout2  7  1
+    ecr2  63  0
 tabRef          
