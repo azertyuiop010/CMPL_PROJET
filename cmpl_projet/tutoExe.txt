@@ -1,0 +1,6 @@
+1 :
+java -jar lib/antlr-3.5.2-complete.jar  src/analyseurs/projet.g
+2 :
+javac -d bin/ -cp "lib/*" src/*/*.java
+3 :
+run Compilateur.java
