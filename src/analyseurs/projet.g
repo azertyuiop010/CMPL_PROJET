@@ -125,15 +125,15 @@ instruction:
 	| affouappel
 	|;
 
-inssi:
+inssi: //TODO
 	'si' expression 'alors' instructions ('sinon' instructions)? 'fsi';
 
-inscond:
+inscond: //TODO
 	'cond' expression ':' instructions (
 		',' expression ':' instructions
 	)* ('aut' instructions |) 'fcond';
 
-boucle:
+boucle: //TODO
 	'ttq' expression 'faire' instructions 'fait';
 
 lecture:
