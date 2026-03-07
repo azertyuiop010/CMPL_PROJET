@@ -1,4 +1,4 @@
-FICHIER testsFournis/DeclExp-T1.gen : 
+FICHIER /home/mviey/Documents/CMPL/TP/CMPL/testsFournis/DeclExp-T1.gen : 
 
    1  reserver        5
    3  empiler        77
@@ -33,17 +33,12 @@ FICHIER testsFournis/DeclExp-T1.gen :
   51  ou        
   52  affecterg       4
   54  contenug        0
-  56  lirent    
-  57  affecterg       0
-  59  contenug        1
-  61  lirent    
-  62  affecterg       1
-  64  contenug        2
-  66  lirebool  
-  67  affecterg       2
-  69  contenug        3
-  71  lirebool  
-  72  affecterg       3
-  74  contenug        4
-  76  lirebool  
-  77  affecterg       4
+  56  ecrent    
+  57  contenug        1
+  59  ecrent    
+  60  contenug        2
+  62  ecrbool   
+  63  contenug        3
+  65  ecrbool   
+  66  contenug        4
+  68  ecrbool   

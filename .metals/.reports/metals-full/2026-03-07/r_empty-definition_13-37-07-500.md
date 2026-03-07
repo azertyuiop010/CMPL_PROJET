@@ -1,3 +1,14 @@
+error id: file://<WORKSPACE>/src/compilateur/PtGen.java:_empty_/UtilLex#messErr#
+file://<WORKSPACE>/src/compilateur/PtGen.java
+empty definition using pc, found symbol in pc: _empty_/UtilLex#messErr#
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+
+offset: 6391
+uri: file://<WORKSPACE>/src/compilateur/PtGen.java
+text:
+```scala
 package compilateur;
 
 import analyseurs.UtilLex;
@@ -211,44 +222,46 @@ public class PtGen {
 				initialisations();
 				break;
 
-			// --- VALEURS ---
-			case 1: // Positif
+			//Ptgen Valeur
+			case 1: //pos
 				tCour = ENT;
 				vCour = UtilLex.valEnt;
 				break;
 
-			case 2 : // Négati
+			case 2 : //neg
 				tCour = ENT;
 				vCour = -UtilLex.valEnt;
 				break;
 
-			case 3 : // Vrai
+			case 3 : //true
 				tCour = BOOL;
 				vCour = VRAI;
 				break;
 
-			case 4 : // Faux
+			case 4 : //false
 				tCour = BOOL;
 				vCour = FAUX;
 				break;
 
-			// --- DÉCLARATIONS ---
-			case 5 : // Constante
+			//Ptgen consts
+			case 5 :
 				if (presentIdent(bc) != 0) {
-					UtilLex.messErr("ERREUR : Vars Déjà Déclaré");
+					UtilLex.mess@@Err("ERREUR : Vars Déjà Déclaré");
 				}
 				placeIdent(UtilLex.numIdCourant, CONSTANTE, tCour, vCour);
 				break;
 
-			case 6 : // Type entier
+			//Ptgen type
+			case 6 :
 				tCour = ENT;
 				break;
 
-			case 7 : // Type booléen
+			case 7 : 
 				tCour = BOOL;
 				break;
 
-			case 8 : // Variable
+			//Ptgen var
+			case 8 :
 				if (presentIdent(bc) != 0) {
 					UtilLex.messErr("ERREUR : Vars Déjà Déclaré");
 				}
@@ -259,12 +272,12 @@ public class PtGen {
 				break;
 
 			//declarations
-			case 9: // Réserver
+			case 9:
 				po.produire(RESERVER);
 				po.produire(varCour); 
 				break;
 
-			// --- EXPRESSIONS ---
+			//primaire
 			case 10:
 				po.produire(EMPILER);
 				po.produire(vCour);
@@ -286,7 +299,7 @@ public class PtGen {
 				}
 				break;
 			
-			// --- OPÉRATEURS ---
+			//
 			// Vérification type ENT
 			case 12: verifEnt(); break;
 
@@ -332,7 +345,6 @@ public class PtGen {
 			// <=
 			case 26: verifEnt(); po.produire(INFEG); tCour = BOOL; break;
 
-			// --- INSTRUCTIONS ---
 			case 27: 
 				int indice21 = presentIdent(1); 
 				
@@ -358,7 +370,7 @@ public class PtGen {
 				break;
 
 			
-			case 30 : // Lecture
+			case 30 ://lecture
                 int indice30 = presentIdent(1);
                 if (indice30 == 0) {
                     UtilLex.messErr("ERREUR : Identificateur Non Déclaré");
@@ -376,7 +388,7 @@ public class PtGen {
                 po.produire(tabSymb[indice30].info);
                 break;
 
-			case 31 : // Ecriture
+			case 31 ://ecrire
 				if (tCour == ENT) {
 					po.produire(ECRENT);
 				} 
@@ -403,3 +415,10 @@ public class PtGen {
 		}
 	}
 }
+
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: _empty_/UtilLex#messErr#

@@ -1,4 +1,4 @@
-// $ANTLR 3.5.2 src/analyseurs/projet.g 2026-03-07 13:10:34
+// $ANTLR 3.5.2 src/analyseurs/projet.g 2026-03-07 13:24:42
 
 	package analyseurs ;   
 
@@ -1752,7 +1752,7 @@ public class projetParser extends Parser {
 			expression();
 			state._fsp--;
 
-			PtGen.pt(30);
+			PtGen.pt(31);
 			// src/analyseurs/projet.g:143:42: ( ',' expression )*
 			loop33:
 			while (true) {
@@ -1771,7 +1771,7 @@ public class projetParser extends Parser {
 					expression();
 					state._fsp--;
 
-					PtGen.pt(30);
+					PtGen.pt(31);
 					}
 					break;
 
