@@ -345,6 +345,42 @@ public class PtGen {
 				break;
 
 			case 21: 
+				verifEnt(); 
+				po.produire(EG); 
+				tCour = BOOL; 
+				break;
+
+			case 22: 
+				verifEnt(); 
+				po.produire(DIFF); 
+				tCour = BOOL; 
+				break;
+
+			case 23: 
+				verifEnt(); 
+				po.produire(SUP); 
+				tCour = BOOL; 
+				break;
+
+			case 24: 
+				verifEnt(); 
+				po.produire(SUPEG); 
+				tCour = BOOL; 
+				break;
+
+			case 25: 
+				verifEnt(); 
+				po.produire(INF); 
+				tCour = BOOL; 
+				break;
+
+			case 26: 
+				verifEnt(); 
+				po.produire(INFEG); 
+				tCour = BOOL; 
+				break;
+
+			case 27: 
 				int indice21 = presentIdent(1); 
 				
 				if (indice21 == 0) {
@@ -359,7 +395,7 @@ public class PtGen {
 				tAff = tabSymb[indice21].type;
 				break;
 
-			case 22:
+			case 28:
 				if (tCour != tAff) {
 					UtilLex.messErr("Erreur : Type incompatible. Impossible d'affecter cette valeur à la variable.");
 				}

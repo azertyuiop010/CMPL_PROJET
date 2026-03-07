@@ -6,22 +6,44 @@ FICHIER testsFournis/DeclExp-T1.gen :
    7  sous      
    8  empiler         2
   10  div       
-  11  empiler         1
-  13  empiler         0
-  15  contenug        2
-  17  empiler         1
-  19  empiler         0
-  21  contenug        0
-  23  empiler         5
-  25  add       
-  26  empiler        10
-  28  mul       
-  29  contenug        0
-  31  contenug        1
-  33  contenug        0
-  35  empiler        10
-  37  contenug        0
-  39  contenug        1
-  41  contenug        2
-  43  contenug        3
-  45  contenug        4
+  11  affecterg       0
+  13  empiler         1
+  15  empiler         0
+  17  et        
+  18  affecterg       2
+  20  contenug        2
+  22  non       
+  23  empiler         1
+  25  empiler         0
+  27  ou        
+  28  et        
+  29  affecterg       3
+  31  contenug        0
+  33  empiler         5
+  35  add       
+  36  empiler        10
+  38  mul       
+  39  affecterg       1
+  41  contenug        0
+  43  contenug        1
+  45  infeg     
+  46  contenug        0
+  48  empiler        10
+  50  diff      
+  51  ou        
+  52  affecterg       4
+  54  contenug        0
+  56  lirent    
+  57  affecterg       0
+  59  contenug        1
+  61  lirent    
+  62  affecterg       1
+  64  contenug        2
+  66  lirebool  
+  67  affecterg       2
+  69  contenug        3
+  71  lirebool  
+  72  affecterg       3
+  74  contenug        4
+  76  lirebool  
+  77  affecterg       4

@@ -140,10 +140,10 @@ lecture:
 	'lire' '(' ident {PtGen.pt(30);}(',' ident{PtGen.pt(30);})* ')';
 
 ecriture:
-	'ecrire' '(' expression {PtGen.pt(30);} (',' expression {PtGen.pt(30);})* ')';
+	'ecrire' '(' expression {PtGen.pt(31);} (',' expression {PtGen.pt(31);})* ')';
 
 affouappel:
-	ident (':=' {PtGen.pt(21);} expression {PtGen.pt(22);}| (effixes (effmods)?)?);
+	ident (':=' {PtGen.pt(27);} expression {PtGen.pt(28);}| (effixes (effmods)?)?);
 
 effixes:
 	'(' (expression (',' expression)*)? ')';
@@ -162,12 +162,12 @@ exp2:
 
 exp3:
 	exp4 (
-		'=' exp4
-		| '<>' exp4
-		| '>' exp4
-		| '>=' exp4
-		| '<' exp4
-		| '<=' exp4
+		'=' {PtGen.pt(12);} exp4 {PtGen.pt(21);}
+		| '<>' {PtGen.pt(12);} exp4 {PtGen.pt(22);}
+		| '>' {PtGen.pt(12);} exp4 {PtGen.pt(23);}
+		| '>=' {PtGen.pt(12);} exp4 {PtGen.pt(24);}
+		| '<' {PtGen.pt(12);} exp4 {PtGen.pt(25);}
+		| '<=' {PtGen.pt(12);} exp4 {PtGen.pt(26);}
 	)?;
 
 exp5:
