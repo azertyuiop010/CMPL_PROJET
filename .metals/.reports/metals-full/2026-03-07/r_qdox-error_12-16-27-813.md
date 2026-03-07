@@ -1,3 +1,14 @@
+error id: file://<WORKSPACE>/src/compilateur/PtGen.java
+file://<WORKSPACE>/src/compilateur/PtGen.java
+### com.thoughtworks.qdox.parser.ParseException: syntax error @[63,21]
+
+error in qdox parser
+file content:
+```java
+offset: 1908
+uri: file://<WORKSPACE>/src/compilateur/PtGen.java
+text:
+```scala
 package compilateur;
 
 import analyseurs.UtilLex;
@@ -60,7 +71,7 @@ public class PtGen {
 	private static int varCour = 0;
 
 
-	private static int adAff; // Adresse de la variable à affecter
+	private static int @@@Aff; // Adresse de la variable à affecter
 	private static int tAff;  // Type de la variable (ENT ou BOOL)
 
 	// TABLE DES SYMBOLES
@@ -344,29 +355,7 @@ public class PtGen {
 				tCour = BOOL;
 				break;
 
-			case 21: 
-				int indice21 = presentIdent(1); 
-				
-				if (indice21 == 0) {
-					UtilLex.messErr("Erreur : La variable '" + UtilLex.numIdCourant + "' n'est pas déclarée.");
-				}
-				
-				if (tabSymb[indice21].categorie != VARGLOBALE) {
-					UtilLex.messErr("Erreur : On ne peut affecter une valeur qu'à une variable.");
-				}
-				
-				adAff = tabSymb[indice21].info;
-				tAff = tabSymb[indice21].type;
-				break;
-
-			case 22:
-				if (tCour != tAff) {
-					UtilLex.messErr("Erreur : Type incompatible. Impossible d'affecter cette valeur à la variable.");
-				}
-				
-				po.produire(AFFECTERG);
-				po.produire(adAff);
-				break;
+			case 21 : 
 
 			
 			case 30 ://lecture
@@ -414,3 +403,42 @@ public class PtGen {
 		}
 	}
 }
+
+```
+
+```
+
+
+
+#### Error stacktrace:
+
+```
+com.thoughtworks.qdox.parser.impl.Parser.yyerror(Parser.java:2025)
+	com.thoughtworks.qdox.parser.impl.Parser.yyparse(Parser.java:2147)
+	com.thoughtworks.qdox.parser.impl.Parser.parse(Parser.java:2006)
+	com.thoughtworks.qdox.library.SourceLibrary.parse(SourceLibrary.java:232)
+	com.thoughtworks.qdox.library.SourceLibrary.parse(SourceLibrary.java:190)
+	com.thoughtworks.qdox.library.SourceLibrary.addSource(SourceLibrary.java:94)
+	com.thoughtworks.qdox.library.SourceLibrary.addSource(SourceLibrary.java:89)
+	com.thoughtworks.qdox.library.SortedClassLibraryBuilder.addSource(SortedClassLibraryBuilder.java:162)
+	com.thoughtworks.qdox.JavaProjectBuilder.addSource(JavaProjectBuilder.java:174)
+	scala.meta.internal.mtags.JavaMtags.indexRoot(JavaMtags.scala:49)
+	scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:99)
+	scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:560)
+	scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:691)
+	scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:688)
+	scala.collection.IterableOnceOps.foreach(IterableOnce.scala:630)
+	scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:628)
+	scala.collection.AbstractIterator.foreach(Iterator.scala:1313)
+	scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:688)
+	scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:940)
+	scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	java.base/java.lang.Thread.run(Thread.java:1474)
+```
+#### Short summary: 
+
+QDox parse error in file://<WORKSPACE>/src/compilateur/PtGen.java

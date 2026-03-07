@@ -1,0 +1,443 @@
+2026.03.06 18:12:16 INFO  Started: Metals version 1.6.6 in folders '/home/mviey/Documents/CMPL/TP/CMPL' for client Visual Studio Code 1.109.4.
+2026.03.06 18:12:16 INFO  Memory monitor started
+2026.03.06 18:12:17 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.06 18:12:17 WARN  no build tool detected in workspace '/home/mviey/Documents/CMPL/TP/CMPL'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.03.06 18:12:17 WARN  Build server is not auto-connectable.
+2026.03.06 18:14:26 INFO  Shutting down server
+2026.03.06 18:14:26 INFO  Memory monitor stopped
+2026.03.06 18:14:26 INFO  shutting down Metals
+2026.03.06 18:14:26 INFO  Exiting server
+2026.03.07 12:11:57 INFO  Started: Metals version 1.6.6 in folders '/home/mviey/Documents/CMPL/TP/CMPL' for client Visual Studio Code 1.109.4.
+2026.03.07 12:11:57 INFO  Memory monitor started
+2026.03.07 12:11:57 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.03.07 12:11:57 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:11:58 WARN  no build tool detected in workspace '/home/mviey/Documents/CMPL/TP/CMPL'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.03.07 12:11:58 WARN  Build server is not auto-connectable.
+2026.03.07 12:11:58 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:11:58 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:11:59 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:03 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:07 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:07 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:08 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:09 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:09 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:09 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:10 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:09 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:09 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:09 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:10 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:10 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:10 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:10 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:10 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:12 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:12:12 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:12 WARN  Running javac-semanticdb failed for file:///home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Output:
+
+2026.03.07 12:12:12 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:12 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:12 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:12 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:12 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:12 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:12:13 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:13 WARN  Running javac-semanticdb failed for file:///home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Output:
+
+2026.03.07 12:12:14 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:14 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:14 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:14 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:15 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:14 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:15 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:16 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:12:16 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:21 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:22 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:12:22 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:12:22 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:14:03 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:14:03 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:14:03 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:15:44 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:15:44 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:15:44 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:15:57 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:15:57 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:15:57 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:15:57 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:15:57 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:15:57 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:15:59 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:15:59 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:15:59 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:15:59 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:15:59 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:15:59 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:00 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:16:00 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:00 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:00 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:00 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:02 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:02 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:02 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:02 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:03 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:16:02 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:03 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:03 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:03 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:03 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:03 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:03 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:05 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:05 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:05 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:06 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:05 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:07 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:07 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:16:07 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:08 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:12 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:16:12 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:12 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:12 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:12 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:12 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:12 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:14 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:15 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:15 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:17 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:17 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:17 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:17 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:18 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:16:18 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:18 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:18 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:18 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:19 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:20 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:20 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:16:20 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:21 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:21 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:21 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:22 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:22 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:22 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:25 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:26 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:26 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:27 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:26 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:27 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:16:27 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:27 INFO  Created report: Optional[file:///home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java]
+2026.03.07 12:16:27 INFO  QDox parse error in file:///home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java (full report at: "/home/mviey/Documents/CMPL/TP/CMPL/.metals/.reports/metals-full/2026-03-07/r_qdox-error_12-16-27-813.md")
+2026.03.07 12:16:27 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:27 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:27 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:27 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:29 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:29 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:29 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:29 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:29 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:30 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:30 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:30 WARN  Running javac-semanticdb failed for file:///home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Output:
+
+2026.03.07 12:16:30 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:30 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:31 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:16:31 INFO  QDox parse error in file:///home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java (full report at: "/home/mviey/Documents/CMPL/TP/CMPL/.metals/.reports/metals-full/2026-03-07/r_qdox-error_12-16-27-813.md")
+2026.03.07 12:16:31 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:32 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:32 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:32 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:32 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:32 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:33 WARN  Running javac-semanticdb failed for file:///home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Output:
+
+2026.03.07 12:16:32 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:33 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:16:33 INFO  QDox parse error in file:///home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java (full report at: "/home/mviey/Documents/CMPL/TP/CMPL/.metals/.reports/metals-full/2026-03-07/r_qdox-error_12-16-27-813.md")
+2026.03.07 12:16:33 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:35 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:35 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:35 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:35 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:35 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:38 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:38 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:38 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:38 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:38 WARN  Running javac-semanticdb failed for file:///home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Output:
+
+2026.03.07 12:16:38 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:38 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+Mar 07, 2026 12:16:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 268
+2026.03.07 12:16:38 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+Mar 07, 2026 12:16:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 270
+2026.03.07 12:16:38 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:39 WARN  Running javac-semanticdb failed for file:///home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Output:
+
+2026.03.07 12:16:38 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:39 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:39 WARN  Running javac-semanticdb failed for file:///home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Output:
+
+2026.03.07 12:16:39 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:40 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:16:40 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:39 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:41 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:43 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:43 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:43 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:43 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:44 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:16:44 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:44 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:44 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:44 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:44 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:58 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:58 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:16:58 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:05 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:05 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:06 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:05 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:05 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:06 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:05 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:06 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:07 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:06 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:06 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:07 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:06 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:06 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:06 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:07 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:08 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:08 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:08 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:08 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:08 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:08 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:17:09 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:09 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:09 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:09 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:10 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:10 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:12 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:12 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:13 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:13 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:13 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:13 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:13 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:14 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:13 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:13 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:14 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:15 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:14 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:17:15 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:16 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:17 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:17 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:17 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:17 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:17 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:18 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:17:18 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:18 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:18 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:18 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:18 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:19 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:17:18 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:19 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:19 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:22 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:22 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:24 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:24 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:27 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:27 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:27 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:29 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:29 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:30 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:30 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:17:30 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:31 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:31 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:31 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:47 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:47 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:48 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:47 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:48 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:17:48 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:49 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:49 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:52 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:52 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:54 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:54 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:55 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:17:55 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:56 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:56 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:59 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:17:59 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:01 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:01 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:02 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:18:02 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:05 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:06 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:06 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:07 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:08 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:11 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:12 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:12 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:12 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:18:13 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:17 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:17 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:18 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:18 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:18 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:18 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:19 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:18:19 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:20 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:20 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:21 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:21 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:22 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:22 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:22 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:23 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:23 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:23 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:18:23 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:24 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:27 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:18:27 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:28 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:36 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:38 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:38 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:39 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:38 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:39 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:40 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:40 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:41 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:18:41 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:41 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:41 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:41 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:41 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:42 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:18:42 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:42 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:43 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:43 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:44 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:44 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:46 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:46 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:47 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:47 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:47 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:47 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:47 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:48 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:47 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:48 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:48 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:48 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:49 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:18:49 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:50 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:50 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:50 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:50 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:51 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:51 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:52 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:53 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:18:53 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:53 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:54 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:54 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:54 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:56 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:56 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:56 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:56 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:57 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:57 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:57 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:58 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:18:58 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:18:59 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:00 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:19:00 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:00 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:00 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:01 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:19:00 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:02 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:02 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:03 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:03 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:03 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:04 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:04 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:04 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:19:04 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:05 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:05 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:07 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:07 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:07 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:08 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:09 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:09 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:09 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:09 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:09 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:09 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:10 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:10 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:11 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:19:11 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:11 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:11 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:11 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:12 WARN  Running javac-semanticdb failed for file:///home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Output:
+
+2026.03.07 12:19:12 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:13 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:13 WARN  no build target for: /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java
+2026.03.07 12:19:13 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+2026.03.07 12:19:14 INFO  no build target found for /home/mviey/Documents/CMPL/TP/CMPL/src/compilateur/PtGen.java. Using fallback presentation compiler.
+Mar 07, 2026 12:19:28 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
