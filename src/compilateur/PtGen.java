@@ -385,15 +385,46 @@ public class PtGen {
 				} 
 				break;
 			
-			// --- IF ELSE ---
-			case 38: 
-				verifBool();
-				po.produire(BSIFAUX);
-				po.produire(0); 
-				pileRep.empiler(po.getIpo()); 
+			// --- STRUCTURES DE CONTRÔLE ---
+
+			// IF ELSE - inssi
+			case 32: // Saut BSIFAUX
+                verifBool();
+                po.produire(BSIFAUX);
+                po.produire(0); 
+                pileRep.empiler(po.getIpo()); 
+                break;
+
+            case 33: // Saut BINCOND
+                po.produire(BINCOND);
+                po.produire(0);
+                
+                int adrSiFaux = pileRep.depiler(); 
+                po.modifier(adrSiFaux, po.getIpo() + 1); 
+                
+                pileRep.empiler(po.getIpo()); 
+                break;
+
+            case 34: // Fin SI
+                int adrDernier = pileRep.depiler(); 
+                po.modifier(adrDernier, po.getIpo() + 1); 
+                break;
+
+			// TTQ - boucle
+			case 35 :
+				//TODO
+				break;
+
+			case 36 :
+				//TODO
+				break;
+
+			case 37 :
+				//TODO
 				break;
 
 
+				
 			case 255:
 				// En fin de compilation :
 				// - création des fichiers contenant le code produit (exécutable et mnémonique)

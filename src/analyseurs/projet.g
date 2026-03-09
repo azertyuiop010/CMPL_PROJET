@@ -125,7 +125,7 @@ instruction:
 	| affouappel
 	|;
 
-inssi: //TODO
+inssi:
 	'si' expression {PtGen.pt(32);} 'alors' instructions ('sinon' {PtGen.pt(33);}  instructions)? {PtGen.pt(34);} 'fsi';
 
 inscond: //TODO
@@ -133,8 +133,8 @@ inscond: //TODO
 		',' expression ':' instructions
 	)* ('aut' instructions |) 'fcond';
 
-boucle: //TODO
-	'ttq' expression 'faire' instructions 'fait';
+boucle:
+	'ttq' {PtGen.pt(35);} expression {PtGen.pt(36);} 'faire' instructions 'fait' {PtGen.pt(37);};
 
 lecture:
 	'lire' '(' ident {PtGen.pt(30);}(',' ident{PtGen.pt(30);})* ')';
