@@ -384,6 +384,14 @@ public class PtGen {
 					po.produire(ECRBOOL);
 				} 
 				break;
+			
+			// --- IF ELSE ---
+			case 38: 
+				verifBool();
+				po.produire(BSIFAUX);
+				po.produire(0); 
+				pileRep.empiler(po.getIpo()); 
+				break;
 
 
 			case 255:

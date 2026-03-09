@@ -126,7 +126,7 @@ instruction:
 	|;
 
 inssi: //TODO
-	'si' expression 'alors' instructions ('sinon' instructions)? 'fsi';
+	'si' expression {PtGen.pt(32);} 'alors' instructions ('sinon' {PtGen.pt(33);}  instructions)? {PtGen.pt(34);} 'fsi';
 
 inscond: //TODO
 	'cond' expression ':' instructions (
