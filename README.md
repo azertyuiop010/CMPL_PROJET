@@ -1,5 +1,11 @@
 L3 CMPL - Projet Compilateur
 ============================
+## Implémentations
+-déclarations
+-expressions
+-instructions de base
+-structures de contrôle si, ttq
+Manque juste cond 
 
 ## VS Code
 
