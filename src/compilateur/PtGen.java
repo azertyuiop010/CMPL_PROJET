@@ -388,14 +388,14 @@ public class PtGen {
 			// --- STRUCTURES DE CONTRÔLE ---
 
 			// IF ELSE - inssi
-			case 32: // Saut BSIFAUX
+			case 32: // BSIFAUX
                 verifBool();
                 po.produire(BSIFAUX);
                 po.produire(0); 
                 pileRep.empiler(po.getIpo()); 
                 break;
 
-            case 33: // Saut BINCOND
+            case 33: // BINCOND
                 po.produire(BINCOND);
                 po.produire(0);
                 
@@ -411,16 +411,25 @@ public class PtGen {
                 break;
 
 			// TTQ - boucle
-			case 35 :
-				//TODO
+			case 35 : 
+				pileRep.empiler(po.getIpo() + 1);
 				break;
 
-			case 36 :
-				//TODO
-				break;
+			case 36 : 
+				verifBool();
+                po.produire(BSIFAUX);
+                po.produire(0);
+                pileRep.empiler(po.getIpo());
+                break;
 
-			case 37 :
-				//TODO
+			case 37: // Fin boucle
+				int adrSortie = pileRep.depiler();
+				int adrRetour = pileRep.depiler();
+				
+				po.produire(BINCOND);
+				po.produire(adrRetour);
+				
+				po.modifier(adrSortie, po.getIpo() + 1);
 				break;
 
 
