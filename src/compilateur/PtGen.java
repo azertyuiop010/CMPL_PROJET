@@ -479,9 +479,10 @@ public class PtGen {
 			case 51:	//decproc màj tabsymb nombre param proc
                 int nbparam = it - bc + 1; 
                 tabSymb[bc - 1].info = nbparam;
+
                 break;
 			case 52:	//decproc  Suppression des variables locales Masquage paramètres Màj bc
-
+				afftabSymb();
                 int nbparam1 = tabSymb[bc - 1].info; 
                 po.produire(RETOUR);
                 po.produire(nbparam1);
@@ -497,6 +498,7 @@ public class PtGen {
                 }
 
                 bc = 1;
+				afftabSymb();
                 break;
 
 
