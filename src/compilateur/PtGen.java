@@ -463,6 +463,46 @@ public class PtGen {
                 bc = 1;
                 break;
 			case 255:	
+
+			// Cond
+			case 38 : //Init
+				pileRep.empiler(0);
+                break;
+
+			case 39: //Test Cond
+				verifBool();
+                po.produire(BSIFAUX);
+                po.produire(-1);
+                pileRep.empiler(po.getIpo());
+				break;
+
+			case 40 : 
+				int adrMajBSIFAUX = pileRep.depiler(); 
+                int adrProdBINCOND = pileRep.depiler();
+                
+                po.produire(BINCOND);
+                po.produire(adrProdBINCOND);
+                int adrNouveauBincond = po.getIpo();
+                
+                po.modifier(adrMajBSIFAUX, po.getIpo() + 1);
+                pileRep.empiler(adrNouveauBincond);
+                break;
+
+			case 41:
+                int adrCourante = pileRep.depiler(); 
+                
+                while (adrCourante != 0) {
+                    int adrPrecedente = po.getElt(adrCourante); 
+                    
+                    po.modifier(adrCourante, po.getIpo() + 1); 
+                    adrCourante = adrPrecedente;
+                }
+                break;
+				
+
+
+				
+			case 255:
 				// En fin de compilation :
 				// - création des fichiers contenant le code produit (exécutable et mnémonique)
 				// - affichage de la table des symboles
