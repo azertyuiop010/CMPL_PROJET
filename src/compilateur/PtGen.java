@@ -16,7 +16,7 @@ import libIO.*;
 public class PtGen {
 
 	// Renseigner ici un nom pour le trinome, constitué UNIQUEMENT DE LETTRES
-	public static String trinome = "VeillardViey"; // TODO
+	public static String trinome = "VeillardViey"; 
 
 	// taille max de la table des symboles
 	private static final int MAXSYMB = 300;
@@ -431,10 +431,38 @@ public class PtGen {
 				
 				po.modifier(adrSortie, po.getIpo() + 1);
 				break;
+			case 50:	//decproc màj tabsymb 
+                int numIdProc = UtilLex.numIdCourant;
+                if (presentIdent(1) != 0) {
+                    UtilLex.messErr("ERREUR : proc déja déclarée");
+                }
+                placeIdent(numIdProc, PROC, NEUTRE, po.getIpo() + 1); 
+                placeIdent(-1, PRIVEE, NEUTRE, 0); 
+                bc = it + 1; 
+                break;
+			case 51:	//decproc màj tabsymb nombre param proc
+                int nbparam = it - bc + 1; 
+                tabSymb[bc - 1].info = nbparam;
+                break;
+			case 52:	//decproc  Suppression des variables locales Masquage paramètres Màj bc
 
+                int nbparam1 = tabSymb[bc - 1].info; 
+                po.produire(RETOUR);
+                po.produire(nbparam1);
 
-				
-			case 255:
+                while (tabSymb[it].categorie == 3) {
+                    it -= 1; 
+                }
+
+                for (int i = bc; i <= it; i++) {
+                    if (tabSymb[i].categorie == 4 || tabSymb[i].categorie == 5) {
+                        tabSymb[i].code = -1;
+                    }
+                }
+
+                bc = 1;
+                break;
+			case 255:	
 				// En fin de compilation :
 				// - création des fichiers contenant le code produit (exécutable et mnémonique)
 				// - affichage de la table des symboles
