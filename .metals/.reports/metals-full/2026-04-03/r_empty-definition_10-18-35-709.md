@@ -1,3 +1,14 @@
+error id: file://<WORKSPACE>/src/compilateur/PtGen.java:_empty_/ProgObjet#produire#
+file://<WORKSPACE>/src/compilateur/PtGen.java
+empty definition using pc, found symbol in pc: _empty_/ProgObjet#produire#
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+
+offset: 7626
+uri: file://<WORKSPACE>/src/compilateur/PtGen.java
+text:
+```scala
 package compilateur;
 
 import analyseurs.UtilLex;
@@ -286,36 +297,20 @@ public class PtGen {
 
 				switch(cat) {
 					case CONSTANTE :
-						po.produire(EMPILER);
-						po.produire(tabSymb[indice11].info); 
-						break;
-
-					case VARGLOBALE :
-						po.produire(CONTENUG);
-						po.produire(tabSymb[indice11].info);
-						break;
-
-					case VARLOCALE : 
-						po.produire(CONTENUL);
-            			po.produire(info);
-            			po.produire(0);
-            			break;
-
-					case PARAMFIXE :
-						po.produire(CONTENUL);
-            			po.produire(info);
-            			po.produire(0);
-            			break;
-
-					case PARAMMOD:
-						po.produire(CONTENUL);
-						po.produire(info);
-						po.produire(1); // /!\ INDIRECTION : On va chercher la valeur à l'adresse stockée
-						break;
-
-					default :
-						UtilLex.messErr("Erreur");
+						
 				}
+
+
+				if (tabSymb[indice11].categorie == CONSTANTE) {
+					po.@@produire(EMPILER);
+					po.produire(tabSymb[indice11].info); 
+					
+				//VAR
+				} else { 
+					po.produire(CONTENUG);
+					po.produire(tabSymb[indice11].info);
+				}
+				break;
 			
 			// --- OPÉRATEURS ---
 			// Vérification type ENT
@@ -518,3 +513,10 @@ public class PtGen {
 		}
 	}
 }
+
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: _empty_/ProgObjet#produire#
