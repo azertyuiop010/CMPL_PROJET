@@ -92,7 +92,7 @@ type: //compil declarations
 decprocs: (decproc ptvg)+;
 
 decproc:
-	'proc' ident parfixe? parmod? consts? vars? corps;
+	'proc' ident {PtGen.pt(50);} parfixe? parmod? {PtGen.pt(51);} consts? vars? corps {PtGen.pt(52);};
 
 ptvg:
 	';'
