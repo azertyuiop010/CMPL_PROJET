@@ -402,37 +402,24 @@ public class PtGen {
 				}
 				break;
 
-			// --- MISE À JOUR POINT 30 (Lecture) ---
-			case 30:
-				int idLecture = presentIdent(1); 
-				if (idLecture == 0) {
-					UtilLex.messErr("Erreur : Identifiant '" + UtilLex.numIdCourant + "' non déclaré.");
-				}
-				
-				if (tabSymb[idLecture].type == ENT) {
-					po.produire(LIRENT);
-				} else {
-					po.produire(LIREBOOL);
-				}
-
-				int catLue = tabSymb[idLecture].categorie; 
-				int adrLue = tabSymb[idLecture].info; 
-
-				if (catLue == VARGLOBALE) {
-					po.produire(AFFECTERG);
-					po.produire(adrLue);
-				} 
-				else if (catLue == PARAMMOD) {
-					po.produire(AFFECTERL);
-					po.produire(adrLue);
-					po.produire(1);
-				} 
-				else {
-					po.produire(AFFECTERL);
-					po.produire(adrLue);
-					po.produire(0);
-				}
-				break;
+			
+			case 30 : // Lecture
+                int indice30 = presentIdent(1);
+                if (indice30 == 0) {
+                    UtilLex.messErr("ERREUR : Identificateur Non Déclaré");
+                }
+                if(tabSymb[indice30].categorie == CONSTANTE){
+                    UtilLex.messErr("ERREUR : Une constante ne peut être modifiée ");
+                }
+                if(tabSymb[indice30].type == ENT){
+                    po.produire(LIRENT);
+                }
+                else{
+                    po.produire(LIREBOOL);
+                }
+                po.produire(AFFECTERG);
+                po.produire(tabSymb[indice30].info);
+                break;
 
 			case 31 : // Ecriture
 				if (tCour == ENT) {
