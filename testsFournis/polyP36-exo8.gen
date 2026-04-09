@@ -1,0 +1,60 @@
+FICHIER testsFournis/polyP36-exo8.gen : 
+
+   1  reserver        2
+   3  bincond       126
+   5  reserver        1
+   7  empiler         0
+   9  affecterl       5   0
+  12  contenul        0   0
+  15  empiler         0
+  17  eg        
+  18  bsifaux        36
+  20  empiler         1
+  22  affecterl       5   0
+  25  empiler         0
+  27  affecterl       1   1
+  30  empiler         1
+  32  affecterg       1
+  34  bincond        60
+  36  contenul        0   0
+  39  empiler        -1
+  41  eg        
+  42  bsifaux        60
+  44  empiler         1
+  46  affecterl       5   0
+  49  empiler         1
+  51  affecterl       1   1
+  54  empiler         0
+  56  affecterg       1
+  58  bincond        60
+  60  contenul        5   0
+  63  affecterl       2   1
+  66  retour          3
+  68  reserver        2
+  70  lirent    
+  71  affecterl       3   0
+  74  contenul        3   0
+  77  empileradl      0   1
+  80  empileradl      4   0
+  83  appel           5   3
+  86  contenul        4   0
+  89  non       
+  90  bsifaux       124
+  92  empileradl      0   1
+  95  appel          68   1
+  98  contenug        1
+ 100  bsifaux       114
+ 102  contenul        3   0
+ 105  contenul        0   1
+ 108  add       
+ 109  affecterl       0   1
+ 112  bincond       124
+ 114  contenul        3   0
+ 117  contenul        0   1
+ 120  mul       
+ 121  affecterl       0   1
+ 124  retour          1
+ 126  empileradg      0
+ 128  appel          68   1
+ 131  contenug        0
+ 133  ecrent    

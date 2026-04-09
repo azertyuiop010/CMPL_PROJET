@@ -1,4 +1,4 @@
-// $ANTLR 3.5.2 src/analyseurs/projet.g 2026-04-09 11:30:58
+// $ANTLR 3.5.2 src/analyseurs/projet.g 2026-04-09 18:57:02
  
   package analyseurs ;
 
@@ -1041,8 +1041,8 @@ public class projetLexer extends Lexer {
 		try {
 			int _type = ID;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// src/analyseurs/projet.g:213:3: ( ( 'a' .. 'z' | 'A' .. 'Z' ) ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '_' )* )
-			// src/analyseurs/projet.g:213:5: ( 'a' .. 'z' | 'A' .. 'Z' ) ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '_' )*
+			// src/analyseurs/projet.g:212:3: ( ( 'a' .. 'z' | 'A' .. 'Z' ) ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '_' )* )
+			// src/analyseurs/projet.g:212:5: ( 'a' .. 'z' | 'A' .. 'Z' ) ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '_' )*
 			{
 			if ( (input.LA(1) >= 'A' && input.LA(1) <= 'Z')||(input.LA(1) >= 'a' && input.LA(1) <= 'z') ) {
 				input.consume();
@@ -1052,7 +1052,7 @@ public class projetLexer extends Lexer {
 				recover(mse);
 				throw mse;
 			}
-			// src/analyseurs/projet.g:213:29: ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '_' )*
+			// src/analyseurs/projet.g:212:29: ( 'a' .. 'z' | 'A' .. 'Z' | '0' .. '9' | '_' )*
 			loop1:
 			while (true) {
 				int alt1=2;
@@ -1097,10 +1097,10 @@ public class projetLexer extends Lexer {
 		try {
 			int _type = INT;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// src/analyseurs/projet.g:220:4: ( ( '0' .. '9' )+ )
-			// src/analyseurs/projet.g:221:2: ( '0' .. '9' )+
+			// src/analyseurs/projet.g:219:4: ( ( '0' .. '9' )+ )
+			// src/analyseurs/projet.g:220:2: ( '0' .. '9' )+
 			{
-			// src/analyseurs/projet.g:221:2: ( '0' .. '9' )+
+			// src/analyseurs/projet.g:220:2: ( '0' .. '9' )+
 			int cnt2=0;
 			loop2:
 			while (true) {
@@ -1149,10 +1149,10 @@ public class projetLexer extends Lexer {
 		try {
 			int _type = WS;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// src/analyseurs/projet.g:224:3: ( ( ' ' | '\\t' | '\\r' )+ )
-			// src/analyseurs/projet.g:224:5: ( ' ' | '\\t' | '\\r' )+
+			// src/analyseurs/projet.g:223:3: ( ( ' ' | '\\t' | '\\r' )+ )
+			// src/analyseurs/projet.g:223:5: ( ' ' | '\\t' | '\\r' )+
 			{
-			// src/analyseurs/projet.g:224:5: ( ' ' | '\\t' | '\\r' )+
+			// src/analyseurs/projet.g:223:5: ( ' ' | '\\t' | '\\r' )+
 			int cnt3=0;
 			loop3:
 			while (true) {
@@ -1202,11 +1202,11 @@ public class projetLexer extends Lexer {
 		try {
 			int _type = RC;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// src/analyseurs/projet.g:227:3: ( ( '\\n' ) )
-			// src/analyseurs/projet.g:227:5: ( '\\n' )
+			// src/analyseurs/projet.g:226:3: ( ( '\\n' ) )
+			// src/analyseurs/projet.g:226:5: ( '\\n' )
 			{
-			// src/analyseurs/projet.g:227:5: ( '\\n' )
-			// src/analyseurs/projet.g:227:6: '\\n'
+			// src/analyseurs/projet.g:226:5: ( '\\n' )
+			// src/analyseurs/projet.g:226:6: '\\n'
 			{
 			match('\n'); 
 			}
@@ -1228,7 +1228,7 @@ public class projetLexer extends Lexer {
 		try {
 			int _type = COMMENT;
 			int _channel = DEFAULT_TOKEN_CHANNEL;
-			// src/analyseurs/projet.g:232:8: ( '#' (~ ( '\\r' | '\\n' ) )* | '\\{' ( . )* '\\}' )
+			// src/analyseurs/projet.g:231:8: ( '#' (~ ( '\\r' | '\\n' ) )* | '\\{' ( . )* '\\}' )
 			int alt6=2;
 			int LA6_0 = input.LA(1);
 			if ( (LA6_0=='#') ) {
@@ -1246,10 +1246,10 @@ public class projetLexer extends Lexer {
 
 			switch (alt6) {
 				case 1 :
-					// src/analyseurs/projet.g:233:2: '#' (~ ( '\\r' | '\\n' ) )*
+					// src/analyseurs/projet.g:232:2: '#' (~ ( '\\r' | '\\n' ) )*
 					{
 					match('#'); 
-					// src/analyseurs/projet.g:233:6: (~ ( '\\r' | '\\n' ) )*
+					// src/analyseurs/projet.g:232:6: (~ ( '\\r' | '\\n' ) )*
 					loop4:
 					while (true) {
 						int alt4=2;
@@ -1282,10 +1282,10 @@ public class projetLexer extends Lexer {
 					}
 					break;
 				case 2 :
-					// src/analyseurs/projet.g:234:4: '\\{' ( . )* '\\}'
+					// src/analyseurs/projet.g:233:4: '\\{' ( . )* '\\}'
 					{
 					match('{'); 
-					// src/analyseurs/projet.g:234:9: ( . )*
+					// src/analyseurs/projet.g:233:9: ( . )*
 					loop5:
 					while (true) {
 						int alt5=2;
@@ -1299,7 +1299,7 @@ public class projetLexer extends Lexer {
 
 						switch (alt5) {
 						case 1 :
-							// src/analyseurs/projet.g:234:10: .
+							// src/analyseurs/projet.g:233:10: .
 							{
 							matchAny(); 
 							}

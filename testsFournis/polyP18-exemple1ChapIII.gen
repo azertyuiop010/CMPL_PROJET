@@ -1,0 +1,18 @@
+FICHIER testsFournis/polyP18-exemple1ChapIII.gen : 
+
+   1  reserver        2
+   3  bincond         5
+   5  lirent    
+   6  affecterg       0
+   8  lirent    
+   9  affecterg       1
+  11  contenug        0
+  13  empiler         0
+  15  eg        
+  16  bsifaux        22
+  18  empiler        10
+  20  affecterg       0
+  22  contenug        1
+  24  contenug        0
+  26  div       
+  27  ecrent    

@@ -320,6 +320,7 @@ public class PtGen {
 					default :
 						UtilLex.messErr("Erreur");
 				}
+				break;
 			
 			// --- OPÉRATEURS ---
 			// Vérification type ENT
@@ -537,6 +538,7 @@ public class PtGen {
 				po.modifier(pileRep.depiler(), po.getIpo() + 1);
     			break;
 				
+			// --- Procédures ---
 			case 50:
 				int numIdProc = UtilLex.numIdCourant;
 				if (presentIdent(1) != 0) {
