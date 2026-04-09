@@ -269,7 +269,11 @@ public class PtGen {
 			//declarations
 			case 9: // Réserver
 				po.produire(RESERVER);
-				po.produire(varCour); 
+				po.produire(varCour);
+				// Skip Proc 
+				po.produire(BINCOND);
+    			po.produire(0); // On ne connaît pas encore l'adresse du début du programme
+    			pileRep.empiler(po.getIpo());
 				break;
 
 			// --- EXPRESSIONS ---category
@@ -365,47 +369,70 @@ public class PtGen {
 
 			// --- INSTRUCTIONS ---
 			case 27: 
-				int indice21 = presentIdent(1); 
+				int indice27 = presentIdent(1); 
+				if (indice27 == 0) UtilLex.messErr("Identifiant inconnu");
 				
-				if (indice21 == 0) {
-					UtilLex.messErr("Erreur : La variable '" + UtilLex.numIdCourant + "' n'est pas déclarée.");
-				}
+				adAff = tabSymb[indice27].info;
+				tAff = tabSymb[indice27].type;
+				int catAff = tabSymb[indice27].categorie;
 				
-				if (tabSymb[indice21].categorie != VARGLOBALE) {
-					UtilLex.messErr("Erreur : On ne peut affecter une valeur qu'à une variable.");
-				}
-				
-				adAff = tabSymb[indice21].info;
-				tAff = tabSymb[indice21].type;
+				pileRep.empiler(catAff); 
 				break;
 
 			case 28:
 				if (tCour != tAff) {
-					UtilLex.messErr("Erreur : Type incompatible. Impossible d'affecter cette valeur à la variable.");
+					UtilLex.messErr("Erreur : Type incompatible.");
 				}
-				
-				po.produire(AFFECTERG);
-				po.produire(adAff);
+
+				int catVariable = pileRep.depiler();
+
+				if (catVariable == VARGLOBALE) {
+					po.produire(AFFECTERG);
+					po.produire(adAff);
+				} 
+				else if (catVariable == PARAMMOD) {
+					po.produire(AFFECTERL);
+					po.produire(adAff);
+					po.produire(1);
+				} 
+				else { 
+					po.produire(AFFECTERL);
+					po.produire(adAff);
+					po.produire(0);
+				}
 				break;
 
-			
-			case 30 : // Lecture
-                int indice30 = presentIdent(1);
-                if (indice30 == 0) {
-                    UtilLex.messErr("ERREUR : Identificateur Non Déclaré");
-                }
-                if(tabSymb[indice30].categorie == CONSTANTE){
-                    UtilLex.messErr("ERREUR : Une constante ne peut être modifiée ");
-                }
-                if(tabSymb[indice30].type == ENT){
-                    po.produire(LIRENT);
-                }
-                else{
-                    po.produire(LIREBOOL);
-                }
-                po.produire(AFFECTERG);
-                po.produire(tabSymb[indice30].info);
-                break;
+			// --- MISE À JOUR POINT 30 (Lecture) ---
+			case 30:
+				int idLecture = presentIdent(1); 
+				if (idLecture == 0) {
+					UtilLex.messErr("Erreur : Identifiant '" + UtilLex.numIdCourant + "' non déclaré.");
+				}
+				
+				if (tabSymb[idLecture].type == ENT) {
+					po.produire(LIRENT);
+				} else {
+					po.produire(LIREBOOL);
+				}
+
+				int catLue = tabSymb[idLecture].categorie; 
+				int adrLue = tabSymb[idLecture].info; 
+
+				if (catLue == VARGLOBALE) {
+					po.produire(AFFECTERG);
+					po.produire(adrLue);
+				} 
+				else if (catLue == PARAMMOD) {
+					po.produire(AFFECTERL);
+					po.produire(adrLue);
+					po.produire(1);
+				} 
+				else {
+					po.produire(AFFECTERL);
+					po.produire(adrLue);
+					po.produire(0);
+				}
+				break;
 
 			case 31 : // Ecriture
 				if (tCour == ENT) {
@@ -507,11 +534,16 @@ public class PtGen {
                 placeIdent(-1, PRIVEE, NEUTRE, 0); 
                 bc = it + 1; 
                 break;
-			case 51:	//decproc màj tabsymb nombre param proc
+			
+				case 51:	//decproc màj tabsymb nombre param proc
                 int nbparam = it - bc + 1; 
                 tabSymb[bc - 1].info = nbparam;
-
                 break;
+
+			case 42 : 
+				po.modifier(pileRep.depiler(), po.getIpo() + 1);
+    			break;
+
 			case 52:	//decproc  Suppression des variables locales Masquage paramètres Màj bc
 				afftabSymb();
                 int nbparam1 = tabSymb[bc - 1].info; 

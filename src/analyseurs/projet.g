@@ -59,14 +59,14 @@ unite:
 	| unitmodule EOF;
 
 unitprog:
-	'programme' ident ':' declarations corps { System.out.println("succès, arrêt de la compilation "); 
+	'programme' ident ':' declarations {PtGen.pt(42);} corps { System.out.println("succès, arrêt de la compilation "); 
 		};
 
 unitmodule:
 	'module' ident ':' declarations;
 
 declarations:
-	partiedef? partieref? consts? vars? decprocs?{PtGen.pt(9);};
+	partiedef? partieref? consts? vars? {PtGen.pt(9);} decprocs?;
 
 partiedef:
 	'def' ident (',' ident)* ptvg;
