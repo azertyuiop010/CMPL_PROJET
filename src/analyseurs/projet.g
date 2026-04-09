@@ -105,13 +105,13 @@ parfixe:
 	'fixe' '(' pf (';' pf)* ')';
 
 pf:
-	type ident (',' ident)*;
+	type ident {PtGen.pt(53);} (',' ident {PtGen.pt(53);})*;
 
 parmod:
 	'mod' '(' pm (';' pm)* ')';
 
 pm:
-	type ident (',' ident)*;
+	type ident {PtGen.pt(54);} (',' ident {PtGen.pt(54);})*;
 
 instructions:
 	instruction (';' instruction)*;

@@ -403,7 +403,7 @@ public class PtGen {
 				break;
 
 			
-			case 30 : // Lecture
+			case 30 : // Lectur
                 int indice30 = presentIdent(1);
                 if (indice30 == 0) {
                     UtilLex.messErr("ERREUR : Identificateur Non Déclaré");
@@ -511,8 +511,12 @@ public class PtGen {
                     adrCourante = adrPrecedente;
                 }
                 break;
+
+			case 42 : 
+				po.modifier(pileRep.depiler(), po.getIpo() + 1);
+    			break;
 				
-				case 50:	//decproc màj tabsymb 
+			case 50:	//decproc màj tabsymb 
                 int numIdProc = UtilLex.numIdCourant;
                 if (presentIdent(1) != 0) {
                     UtilLex.messErr("ERREUR : proc déja déclarée");
@@ -522,13 +526,10 @@ public class PtGen {
                 bc = it + 1; 
                 break;
 			
-				case 51:	//decproc màj tabsymb nombre param proc
+			case 51:	//decproc màj tabsymb nombre param proc
                 int nbparam = it - bc + 1; 
                 tabSymb[bc - 1].info = nbparam;
-                break;
-
-			case 42 : 
-				po.modifier(pileRep.depiler(), po.getIpo() + 1);
+				varLocCour = nbparam + 2;
     			break;
 
 			case 52:	//decproc  Suppression des variables locales Masquage paramètres Màj bc
@@ -551,8 +552,18 @@ public class PtGen {
 				afftabSymb();
                 break;
 
+			case 53: // Param FIXE
+				if(presentIdent(bc) != 0) UtilLex.messErr("Déjà déclaré");
+				placeIdent(UtilLex.numIdCourant, PARAMFIXE, tCour, varLocCour);
+				varLocCour++;
+				break;
 
-				
+			case 54 : // Param MOD
+				if(presentIdent(bc) != 0) UtilLex.messErr("Déjà déclaré");
+				placeIdent(UtilLex.numIdCourant, PARAMMOD, tCour, varLocCour);
+				varLocCour++;
+				break;
+
 			case 255:
 				// En fin de compilation :
 				// - création des fichiers contenant le code produit (exécutable et mnémonique)
