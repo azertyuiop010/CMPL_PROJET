@@ -92,7 +92,7 @@ type: //compil declarations
 decprocs: (decproc ptvg)+;
 
 decproc:
-	'proc' ident {PtGen.pt(50);} parfixe? parmod? {PtGen.pt(51);} consts? vars? corps {PtGen.pt(52);};
+	'proc' ident {PtGen.pt(50);} parfixe? parmod? {PtGen.pt(51);} consts? vars? {PtGen.pt(55);} corps {PtGen.pt(52);};
 
 ptvg:
 	';'
@@ -143,13 +143,12 @@ ecriture:
 	'ecrire' '(' expression {PtGen.pt(31);} (',' expression {PtGen.pt(31);})* ')';
 
 affouappel:
-	ident (':=' {PtGen.pt(27);} expression {PtGen.pt(28);}| (effixes (effmods)?)?);
-
+    ident (':=' {PtGen.pt(27);} expression {PtGen.pt(28);}| {PtGen.pt(60);} (effixes (effmods)?)? {PtGen.pt(62);});
 effixes:
 	'(' (expression (',' expression)*)? ')';
 
 effmods:
-	'(' (ident (',' ident)*)? ')';
+	'(' (ident {PtGen.pt(61);} (',' ident {PtGen.pt(61);})* )? ')';
 
 expression: (exp1) ('ou' {PtGen.pt(17);} exp1 {PtGen.pt(18);})*;
 

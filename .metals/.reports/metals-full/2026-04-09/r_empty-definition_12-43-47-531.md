@@ -1,3 +1,14 @@
+error id: file://<WORKSPACE>/src/compilateur/PtGen.java:
+file://<WORKSPACE>/src/compilateur/PtGen.java
+empty definition using pc, found symbol in pc: 
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+
+offset: 15838
+uri: file://<WORKSPACE>/src/compilateur/PtGen.java
+text:
+```scala
 package compilateur;
 
 import analyseurs.UtilLex;
@@ -597,7 +608,7 @@ public class PtGen {
 				if (iProc == 0) UtilLex.messErr("Erreur : Proc non déclarée");
 				if (tabSymb[iProc].categorie != PROC) UtilLex.messErr("Erreur : Ce n'est pas une procédure");
 				
-				pileRep.empiler(iProc); 
+				pileRep.empiler(iProc); adresseArg@@
 				break;
 
 			case 61 : // Passage param
@@ -608,25 +619,17 @@ public class PtGen {
 
 				switch (catArg) {
 					case VARGLOBALE:
-						po.produire(EMPILERADG);
+						po.produire(EMPILERADG); 
         				po.produire(adArg);
-						po.produire(0);
 						break;
 
 					case PARAMMOD:
-						po.produire(EMPILERADL);
-        				po.produire(adArg);
-						po.produire(1);
+
 						break;
 				
 					default:
-						po.produire(EMPILERADL);
-        				po.produire(adArg);
-						po.produire(0);
 						break;
 				}
-
-			case 62 :
 
 
 			case 255:
@@ -646,3 +649,10 @@ public class PtGen {
 		}
 	}
 }
+
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: 
