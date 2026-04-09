@@ -638,6 +638,7 @@ public class PtGen {
 
 
 			case 255:
+				po.produire(ARRET);
 				// En fin de compilation :
 				// - création des fichiers contenant le code produit (exécutable et mnémonique)
 				// - affichage de la table des symboles
