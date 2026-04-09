@@ -8,7 +8,7 @@
 - Structures de contrôle : `si`/`sinon`/`fsi`, `ttq`/`faire`/`fait`, `cond`/`fcond`
 - Compilation des procédures : déclaration, paramètres fixe et mod, variables locales, appel
 
-## Ce qui ne fonctionne pas
+## Ce qui ne fonctionne pas / pas fait 
 
 - **Vérification du nombre de paramètres à l'appel**
 
