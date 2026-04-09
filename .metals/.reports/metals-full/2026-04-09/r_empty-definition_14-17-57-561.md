@@ -1,3 +1,14 @@
+error id: file://<WORKSPACE>/src/compilateur/PtGen.java:_empty_/UtilLex#
+file://<WORKSPACE>/src/compilateur/PtGen.java
+empty definition using pc, found symbol in pc: _empty_/UtilLex#
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+
+offset: 13951
+uri: file://<WORKSPACE>/src/compilateur/PtGen.java
+text:
+```scala
 package compilateur;
 
 import analyseurs.UtilLex;
@@ -65,7 +76,7 @@ public class PtGen {
 
 	private static int varLocCour;
 	private static int nbParam;
-
+	private static int itAvantProc;
 
 	// TABLE DES SYMBOLES
 	// ----------------------
@@ -370,8 +381,7 @@ public class PtGen {
 			// --- INSTRUCTIONS ---
 			case 27: 
 				int indice27 = presentIdent(1); 
-				if (indice27 == 0) {UtilLex.messErr("ERREUR : Identifiant inconnu");}
-				if (tabSymb[indice27].categorie == CONSTANTE) {UtilLex.messErr("ERREUR : Impossible de modif une CONS");}
+				if (indice27 == 0) UtilLex.messErr("Identifiant inconnu");
 				
 				adAff = tabSymb[indice27].info;
 				tAff = tabSymb[indice27].type;
@@ -537,16 +547,15 @@ public class PtGen {
 				po.modifier(pileRep.depiler(), po.getIpo() + 1);
     			break;
 				
-			case 50:
-				int numIdProc = UtilLex.numIdCourant;
-				if (presentIdent(1) != 0) {
-					UtilLex.messErr("ERREUR : proc déja déclarée");
-				}
-				placeIdent(numIdProc, PROC, NEUTRE, po.getIpo() + 1);
-				placeIdent(-1, PRIVEE, NEUTRE, 0);
-				bc = it + 1;
-				varLocCour = 0;
-				break;
+			case 50:	//decproc màj tabsymb 
+                int numIdProc = UtilLex.numIdCourant;
+                if (presentIdent(1) != 0) {
+                    Ut@@ilLex.messErr("ERREUR : proc déja déclarée");
+                }
+                placeIdent(numIdProc, PROC, NEUTRE, po.getIpo() + 1); 
+                placeIdent(-1, PRIVEE, NEUTRE, 0); 
+                bc = it + 1; 
+                break;
 			
 			case 51:	//decproc màj tabsymb nombre param proc
                 int nbparam = it - bc + 1; 
@@ -555,6 +564,7 @@ public class PtGen {
     			break;
 
 			case 52:	//decproc  Suppression des variables locales Masquage paramètres Màj bc
+				afftabSymb();
                 int nbparam1 = tabSymb[bc - 1].info; 
                 po.produire(RETOUR);
                 po.produire(nbparam1);
@@ -652,3 +662,10 @@ public class PtGen {
 		}
 	}
 }
+
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: _empty_/UtilLex#
